@@ -1,0 +1,21 @@
+type: code
+custom_name: Does an array contain N?
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    class Main {
+        public static void main(String[] args) {
+            // put your code here
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2131
+status: Failed
+feedback:
+  message: "Failed test #1 of 9. Runtime error\n\nThis is a sample test from the problem\
+    \ statement!\n\nTest input:\n3\n1 3 2\n3\n\nCorrect output:\ntrue\n\nYour code\
+    \ output:\n\n\nError:\nException in thread \"main\" java.lang.ArrayIndexOutOfBoundsException:\
+    \ Index -4 out of bounds for length 3\n\tat Main.main(Main.java:20)\n"
+  time: Fri, 09 Oct 2020 09:43:16 UTC
+record: -1
