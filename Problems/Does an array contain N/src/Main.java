@@ -7,22 +7,28 @@ class Main {
         Scanner scanner = new Scanner(System.in);
 
         int a = scanner.nextInt();
+        int[] arr = new int[a];
 
-        int[] characters = new int[a];
-        int c = scanner.nextInt();
-
+        boolean b = false;
 
         for (int i = 0; i < a; i++) {
-            characters[i] = scanner.nextInt();
-           int val = characters[i];
-           if ( val == c) {
-                break;
-           }
+            arr[i] = scanner.nextInt();//Вводим в массив числа
         }
-        System.out.println(a);
-        System.out.println(characters);
 
+        int c = scanner.nextInt();
+        for ( int i= 0; i < a; i++) {
+            if ( arr[i] == c) {
+                b = true;
+                break;
+            }
+        }
+        if (b) {
+            System.out.println("true");
+        } else {
+            System.out.println("false");
+        }
+    }
 
 
     }
-}
+

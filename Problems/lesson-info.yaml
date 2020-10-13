@@ -3,3 +3,5 @@ content:
 - Initializing an array of integers
 - Initializing an array of characters
 - Does an array contain N
+- Sum array elements greater than a value
+- Cyclically shifting elements
