@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 class Main {
@@ -11,9 +12,11 @@ class Main {
         for ( int i= 0; i < b; i++) {
             a[i] = scanner.nextInt();
         }
-        int [] dst = new int[b];
-        System.arraycopy(a, 1, dst , 0, 4);
-        dst [0] = a[i]
-
+        int c = a[a.length-1];
+        for (int i = a.length -2; i >= 0; i--) {
+            a[i+1] = a[i];
+        }
+        a[0] = c;
+        System.out.print(Arrays.toString(a));
     }
 }
